@@ -41,7 +41,7 @@ namespace BuildSettings
             }
         }
 
-        public static void LockSkins()
+        public static void UnlockSkins()
         {
             foreach (string key in defaultColors.Keys)
                 Base.partsLoader.colorTextures[key].tags = defaultColors[key];
